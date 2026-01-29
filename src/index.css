@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Roboto", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+  
+  --color-brand-primary: #F29C33;
+  --color-brand-secondary: #D9C8A5;
+  --color-main-bg: #F0EBE1;
+  --color-secondary-bg: #FFFBF2;
+  --color-main-text: #262522;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-main-bg);
+    color: var(--color-main-text);
+    transition: background-color 0.3s, color 0.3s;
+  }
+}
